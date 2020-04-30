@@ -1,0 +1,88 @@
+#main{
+	background-color: hsl(240,0%,90%);
+	margin: 0px 10px 40px 10px;
+}
+#header{
+	background-color: black;
+	padding-left: 30px;
+	display: flex;
+}
+
+.left-side-header > h4{
+	color: white;
+}
+i{
+	color: lightgrey;
+	padding: 3px 3px 3px 3px;
+}
+.right-side-header{
+	position: relative;
+	left:740px;
+	margin: 10px 0px 10px 0px;
+}
+.left-side-header{
+	
+
+}
+.btn btn-success{
+	color: black;
+}
+#title{
+	text-align:center;
+	padding-top: 60px;
+	margin-top: 30px;
+}
+#article-page{
+	background-color: hsl(240,0%,90%);
+	text-align:center;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+#article-page > p{
+	font-size: 12px;
+	padding-bottom: 10px;
+}
+#img-div{
+	text-align: center;
+	padding-top: 50px;
+	margin: auto;
+	background-color: white;
+	max-width: none;
+}
+#image{
+	display: block;
+	padding-left: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width:50%;
+	height: auto;
+	max-width: 100%;
+}
+#tribute-info{
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+	width: 100%;
+}
+#about{
+	padding-top: 40px;
+	display: block;
+	text-align: justify;
+	width: 600px;
+	margin: auto;
+	text-indent: 50px;
+}
+a[target]{
+	color: darkblue;
+	text-transform: uppercase;
+	text-decoration:underline;
+}
+@media (max-width:760px){
+	li{
+		font-size: 1.8vw;
+	}
+	#link{
+		font-size: 2vw;
+	}
+}
